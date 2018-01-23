@@ -1,10 +1,6 @@
-ul{
-	list-style: none;
+tr:nth-child(odd){
+	background-color: red;
 }
-li{
-	margin: 10px 0px;
-	border-bottom: 3px solid black;
-	border-left: 10px solid red;
+tr:nth-child(even){
+	background-color: green;
 }
-
-
