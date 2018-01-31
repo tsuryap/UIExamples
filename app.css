@@ -1,0 +1,39 @@
+body{
+	    font-family: monospace;
+}
+.headerColor{
+	background-color: lightgrey !important;
+}
+
+.borderColor{
+	border-color: lightgrey !important;
+}
+.headingStyle{
+   color: black !important;
+   font-size: 20px;
+   font-weight: bold;
+}
+.user{
+	color:black;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.logout{
+	    border-left: 1px solid;
+        padding-left: 10px;
+}
+.iconuser{
+	margin-top: 3px;
+}
+ ul.tree {
+    display: none;
+}
+li a{
+	color: black;
+}
+.centerHeading{
+	color: #0095ff;
+	font-size: 30px;
+	font-weight: bold;
+}
