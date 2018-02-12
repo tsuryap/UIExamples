@@ -4,7 +4,7 @@ body{
 }
 .mainDiv{
 	width: 500px;
-	height: 500px;
+	height: 300px;
 	border: 3px solid grey;
 	position: relative;
 	top: 10%;
@@ -22,4 +22,8 @@ body{
 }
 .margin-top-10{
 	margin-top: 10px;
+}
+.result{
+	    font-size: 40px;
+    font-weight: bold
 }
