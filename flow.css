@@ -1,0 +1,53 @@
+.node,.child{
+	border: 2px solid black;
+	color: white;
+	font-weight: bold;
+	font-size: 2.5rem;
+	width: 8rem;
+	height: 7rem;
+	background-color: grey;
+	text-align: center;
+    padding-top: 1.25rem;
+    z-index: 10;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+     box-shadow:         3px 3px 5px 6px #ccc;
+
+}
+.childRow {
+	padding-top: 3rem;
+	padding-left: 3rem;
+}
+.child:before{
+	/* top: 0%; */
+	content: "";
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+	position: absolute;
+	height: 12rem;
+	width: 4rem;
+	left: 0%;
+	bottom: 50%;
+	z-index: 0;
+}
+.child{
+	margin-left: 3rem;
+	z-index: 10;
+}
+.child:after{
+	content: "";
+	border-bottom: 4px solid black;
+	z-index: 0;
+}
+
+.relation{
+	content: "";
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+	margin-left: 3rem;
+}
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
