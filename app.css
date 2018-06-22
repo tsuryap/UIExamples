@@ -1,43 +1,35 @@
-/* Global resets */
-* {box-sizing: border-box; margin: 0; padding: 0;}
-body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
-
-/* Fonts */
-h1 {
-  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
-  font-size: 2.5em;
+.node,.child{
+  border: 2px solid black;
+  color: white;
   font-weight: bold;
-}
-
-.container {
-  margin: 2em auto;
-  max-width: 630px;
+  font-size: 2.5rem;
+  width: 8rem;
+  height: 7rem;
+  background-color: grey;
   text-align: center;
+  padding-top: 1.25rem;
+  z-index: 10;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
 }
 
-/* COLORS: 
-  blue: #20A1D4;
-  green: #1CBC2C;
-  orange: #EF5F3C;
-  black: #424242;
-  grey: #777;
-  light grey: #eaeaea;
-*/
-
-/* Your CSS goes here */
-.contentDiv{
-  padding: 20px;
-  border: 3px solid grey;
+.hrline{
+  border-left: 4px solid black;
+  height: 7rem;
+  margin-left: 2rem;
 }
-.highlight{
-  color:  #FF7F50
+.vrline{
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  width: 9rem;
+  margin-left: 2.95rem;
 }
-.actionDiv{
-  margin-top: 10px;
+.child{
+      position: relative;
+      bottom: 50%;
+      left: -10%;
 }
-.amount{
-height: 30px;
-}
-.btn{
-  
-}
+.newHeight{ 
+   height: 14rem;
+ }
