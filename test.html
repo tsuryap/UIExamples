@@ -1,145 +1,19 @@
-<html>
+<html ng-app='test'>
 <head>
 	<meta charset="UTF-8">
- <link rel="stylesheet" href="ess.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.css" crossorigin=" anonymous">
-	
-	<title>Tables</title>
+	<title>{{1+6}}</title>
+  <link rel="stylesheet" href="app.css"/>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js'></script>
+	<script src='app.js'></script>
 </head>
 <body>
-	<table border='2'>
-		<tr>
-			<td>
-				Test1
-			</td>
-			<td>
-				Test2
-			</td>
 
-		</tr>
-		<tr>
-			<td>
-				Test1
-			</td>
-			<td>
-				Test2
-			</td>
 
-		</tr>
-		<tr>
-			<td>
-				Test1
-			</td>
-			<td>
-				Test2
-			</td>
 
-		</tr>
+  <div ng-controller="main">
+        <div ng-if="hideDiv"> I am from hidden div</div>
 
-		<tr>
-			<td>
-				Test1
-			</td>
-			<td>
-				Test2
-			</td>
-
-		</tr>
-		<tr>
-			<td>
-				Test1
-			</td>
-			<td>
-				Test2
-			</td>
-
-		</tr>
-
-		<tr>
-			<td>
-				Test1
-			</td>
-			<td>
-				Test2
-			</td>
-
-		</tr>
-		<tr>
-			<td>
-				Test1
-			</td>
-			<td>
-				Test2
-			</td>
-
-		</tr>
-		<tr>
-			<td>
-				Test1
-			</td>
-			<td>
-				Test2
-			</td>
-
-		</tr>
-		<tr>
-			<td>
-				Test1
-			</td>
-			<td>
-				Test2
-			</td>
-
-		</tr>
-		<tr>
-			<td>
-				Test1
-			</td>
-			<td>
-				Test2
-			</td>
-
-		</tr>
-	</table>
-
-	<!--  ************************************************** -->
-	<div id="Jagguform">
-		<form action="test.html" method="post">
-        <fieldset>
-            <legend> Candidate Information</legend>
-        Name:
-    <input type="text" placeholder='Enter Name'>
-        <br/>
-       Phone Number :
-        <input type="Number" placeholder='Enter Number'><br/>
-        Email :
-       <input type="Email" placeholder='Enter Email'><br/>
-       Address :
-       <input type="Address" placeholder='Enter Address'><br/>
-        <input type="radio" name="gender"  value="Male" checked> Male
-        <input type="radio" name="gender" value="Female"> Female
-        <input type="radio" name="gender" value="Other"> Other
-        <br/>
-        <input type="submit" value="submit">
-        <input type="Reset" value="Reset">
-        </fieldset>
-    </form>
-    <!--gfvjhghhjkjhkjgkujgkjhligkuygkjgiug-->
-    <form action="hw1.html">
- 		<fieldset>
- 			<legend>Sign in form</legend>
- 			Name : <input type="text"/><br><br>
- 			Email : <input type="text"/><br><br>
- 			Phone : <input type="numbers"/><br><br>
- 
-			<input type="Submit" value="submit"/>
- 			<input type="Reset" value="Reset"/>
-		</fieldset>
-	</form>
-     </div>
-		
-	</form>
-
+  </div>
 </body>
 </html>
 
